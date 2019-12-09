@@ -1,0 +1,20 @@
+.img{
+  width: 180px;
+}
+.top{
+  width: 100%;
+  height: 300px;
+  background-image: url("https://scontent.fuln6-1.fna.fbcdn.net/v/t1.0-9/71848700_1396722950495869_1379944898823716864_n.jpg?_nc_cat=105&_nc_ohc=GcTT7JDel0IAQnmL1wTIV5m5I7T_cYi8tBnwd78R6PwbQoc3PIvpEgu9g&_nc_ht=scontent.fuln6-1.fna&oh=b0a1b6e95e20fa752811dcdc74208405&oe=5E7EF456");
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.name{
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}

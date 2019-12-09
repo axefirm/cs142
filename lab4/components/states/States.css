@@ -1,0 +1,61 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+.input{
+  width: 450px;
+  margin: auto;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px;
+  color: black;
+}
+.inputItem{
+  background-color: inherit;
+  color: black;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 300px;
+}
+body{
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+}
+ul{
+  position: relative;
+  width: 450px;
+  margin: 100px auto 0;
+  margin-top: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+ul li{
+  display: flex;
+  background-color: #ff3772;
+  padding:10px 20px;
+  color:#fff;
+  margin: 5px 0;
+  transition: 0.5s;
+}
+ul li:hover{
+  transform: scale(1.06);
+  background: #ff3772;
+}
+ul li:nth-child(1){
+  background-color: #f0b5c1;
+}
+
+ul li:nth-child(2){
+  background-color: #EA8EA2;
+}
+ul li:nth-child(3){
+  background-color: #E66785;
+}
+
+ul li:nth-child(4){
+  background-color: #E45476;
+}
