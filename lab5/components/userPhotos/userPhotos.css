@@ -1,0 +1,27 @@
+img {
+  width: 100%;
+}
+.comment {
+  /* padding: 1px; */
+  background: rgb(243, 243, 243);
+  border-radius: 10px;
+  padding: 5px;
+}
+.cont {
+  background: rgb(248, 248, 248);
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 7%;
+  padding: 0.5%;
+  border-radius: 5px;
+}
+@media only screen and (min-height: 1vh) {
+  .MuiPaper-root-107{
+    height: auto;
+  }
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 20px;
+}
